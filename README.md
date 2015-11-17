@@ -9,4 +9,18 @@
   * If we wanted to pull the url for that first image in the array:
 ```
 response["data"][0]["images"]["original"]["url"] #=> "http://media0.giphy.com/media/FiGiRei2ICzzG/giphy.gif"
+
 ```
+
+``` let filePath = NSBundle.mainBundle().pathForResource("rows", ofType: "json")
+        let data =  NSData(contentsOfFile: filePath!)
+        //print(data)
+        let json = JSON(data: data!)
+        var actualData = json["data"]
+        
+        
+```
+
+
+ 
+ 
