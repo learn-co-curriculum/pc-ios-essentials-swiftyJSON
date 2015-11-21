@@ -1,4 +1,4 @@
-# Using NYC Open Data Using swiftyJSON
+# Using NYC Open Data Using SwiftyJSON
 
 
  * We've said many times before, the internet is essentially a huge database.  Your Facebook photos, the weather history for El Paso, Texas, the headlines for the International Herald Tribune, all of the gyro shops in Istanbul.  Some of those sites, or some organizations, make this data available for developers to build cool things with.
