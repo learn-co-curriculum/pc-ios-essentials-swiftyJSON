@@ -7,8 +7,10 @@ We've said many times before, the internet is essentially a huge database.  Your
  * Much of the time, these data are returned to you in a format called JSON.  
  * We are going to utilize JSONs from NYC Open Data for our final projects.  
  * JSON probably looks intimidating, but it's essentially a nested hash. Let's call this hash object `response`. 
-* **Using JSON with Swift.**  Under normal circumstances, "parsing"  a JSON, or searching it for the information that you want, is an ugly process.  Enter a library called SwiftyJSON.  SwiftyJSON is a library that is easy to implement that makes it easier for us to parse JSON.  
-* **Implementing Swifty JSON**
+
+**Using JSON with Swift.**  Under normal circumstances, "parsing"  a JSON, or searching it for the information that you want, is an ugly process.  Enter a library called SwiftyJSON.  SwiftyJSON is a library that is easy to implement that makes it easier for us to parse JSON.  
+
+**Implementing Swifty JSON**
 + Go to [this site.](https://github.com/SwiftyJSON/SwiftyJSON)
 + Create a new Swift file in your project, name is *SwiftyJSON.swift* and paste the SwiftyJSON.swift contents there.
 + In your ViewDidLoad method in your view controller, paste the following code:
