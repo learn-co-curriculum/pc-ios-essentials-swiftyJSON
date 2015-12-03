@@ -8,7 +8,7 @@ We've said many times before, the internet is essentially a huge database.  Your
  * We are going to utilize JSONs from NYC Open Data for our final projects.  
  * JSON probably looks intimidating, but it's essentially a nested hash. Let's call this hash object `response`. 
 
-**Using JSON with Swift.**  Under normal circumstances, "parsing"  a JSON, or searching it for the information that you want, is an ugly process.  Enter a library called SwiftyJSON.  SwiftyJSON is a library that is easy to implement that makes it easier for us to parse JSON.  
+**Using JSON with Swift.**  Under normal circumstances, "parsing"  a JSON, or searching it for the information that you want, is an ugly process. ON.  SwiftyJSON is a library that makes it easier for us to parse JSON and is straight-forward to implement.  
 
 **Implementing Swifty JSON**
 + Go to [this site.](https://github.com/SwiftyJSON/SwiftyJSON)
@@ -18,10 +18,8 @@ We've said many times before, the internet is essentially a huge database.  Your
 ```
 let filePath = NSBundle.mainBundle().pathForResource("rows", ofType: "json")
         let data =  NSData(contentsOfFile: filePath!)
-        //print(data)
         let json = JSON(data: data!)
-        var actualData = json["data"]
-        
+        var actualData = json["data"]        
         
 ```
 In this case *rows* refers to the filename of your JSON.  
@@ -29,5 +27,3 @@ In this case *rows* refers to the filename of your JSON.
 And you're good to go!
  
  
-
-<a href='https://learn.co/lessons/pc-ios-essentials-swiftyJSON' data-visibility='hidden'>View this lesson on Learn.co</a>
