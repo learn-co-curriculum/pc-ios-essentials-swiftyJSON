@@ -27,3 +27,5 @@ In this case *rows* refers to the filename of your JSON.
 And you're good to go!
  
  
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/pc-ios-essentials-swiftyJSON' title='Using NYC Open Data Using SwiftyJSON'>Using NYC Open Data Using SwiftyJSON</a> on Learn.co and start learning to code for free.</p>
